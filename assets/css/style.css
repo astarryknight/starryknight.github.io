@@ -741,9 +741,18 @@ section {
   width: 100%;
 }
 
+.wordle.portfolio-details .portfolio-details-slider img {
+  width: 70%;
+}
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
+}
+
+.swiper-slide.wordle-slide{
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {

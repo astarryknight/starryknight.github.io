@@ -271,7 +271,7 @@ h6 {
   background: center no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../img/bg.JPG");
+  background-image: url("../img/bg2.jpg");
 }
 
 @media (min-width: 992px) {
@@ -282,7 +282,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -748,8 +748,8 @@ section {
   position: relative;
 }
 
-.tclpre{
-  width:100%;
+.tclpre {
+  width: 100%;
 }
 
 .swiper-slide.wordle-slide,

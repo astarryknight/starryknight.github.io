@@ -136,12 +136,6 @@ h6 {
   }
 }
 
-@media (min-width: 991px) {
-  #main {
-    margin-left: 100px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -745,12 +739,21 @@ section {
   width: 70%;
 }
 
+.tcl.portfolio-details .portfolio-details-slider img {
+  width: 40%;
+}
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.swiper-slide.wordle-slide{
+.tclpre{
+  width:100%;
+}
+
+.swiper-slide.wordle-slide,
+.swiper-slide.tcl-slide {
   display: flex;
   justify-content: center;
 }
